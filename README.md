@@ -174,6 +174,88 @@ vaultcore-financial/
 └── .gitignore
 ```
 
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/vaultcore-financial.git
+cd vaultcore-financial
+```
+
+---
+
+### 2️⃣ Backend Setup (Spring Boot)
+
+```bash
+cd backend
+mvn clean install
+mvn spring-boot:run
+```
+
+📌 Backend runs on:
+
+```text
+http://localhost:8080
+```
+
+---
+
+### 3️⃣ Frontend Setup (React)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+📌 Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+### 4️⃣ Keycloak Setup
+
+Run Keycloak server on:
+
+```text
+http://localhost:8081
+```
+
+Create:
+
+- Realm: `vaultcore`
+- Client ID: `vaultcore-frontend`
+
+---
+
+# 🔑 Environment Variables
+
+## Backend (`application.yml`)
+
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vaultcore_db
+    username: postgres
+    password: YOUR_PASSWORD
+
+gemini:
+  api-key: YOUR_GEMINI_API_KEY
+```
+
+---
+
+## Frontend (`.env`)
+
+```env
+VITE_API_URL=http://localhost:8080
+VITE_KEYCLOAK_URL=http://localhost:8081
+```
+
 ## 🏗️ Architecture Overview
 
 <p align="center">
