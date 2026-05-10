@@ -1,0 +1,44 @@
+
+spring:
+  application:
+    name: vaultcore-financial
+  threads:
+    virtual:
+      enabled: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/vaultcore_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: "00000000"
+
+  jpa:
+    hibernate:
+      ddl-auto: update   # use validate in prod
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  cache:
+    type: simple
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/vaultcore
+          jwk-set-uri: http://localhost:8081/realms/vaultcore/protocol/openid-connect/certs
+  keycloak:
+    server-url: http://localhost:8081
+    realm: vaultcore
+    client-id: vaultcore-frontend
+    client-secret: YOUR_CLIENT_SECRET
+    admin:
+      username: superadmin
+      password: superadmin_password
+
+gemini:
+  api-key: AIzaSyDAxGuVQf4qoIGUw0iiSU4k8brGxgVmHiQ
+
+
