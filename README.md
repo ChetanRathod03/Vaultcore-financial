@@ -1,7 +1,8 @@
 🏦 VaultCore Financial
-🚀 Enterprise-Grade FinTech Banking & Crypto Trading Platform | React.js + Spring Boot + PostgreSQL + Keycloak + Gemini AI
+
+##🚀 Enterprise-Grade FinTech Banking & Crypto Trading Platform | React.js + Spring Boot + PostgreSQL + Keycloak + Gemini AI
 VaultCore Financial is a secure, scalable, and AI-powered fintech platform that combines digital banking, crypto trading, portfolio management, fraud monitoring, and AI financial assistance into a single enterprise-level ecosystem.
-⚡ Built with microservice-inspired architecture, JWT/OAuth2 security, Keycloak authentication, real-time crypto market integration, and AI-powered financial assistance.
+##⚡ Built with microservice-inspired architecture, JWT/OAuth2 security, Keycloak authentication, real-time crypto market integration, and AI-powered financial assistance.
 
 ---
 
@@ -172,7 +173,7 @@ vaultcore-financial/
 ## 🏗️ Architecture Overview
 
 <p align="center">
- <img width="850" alt="VaultCore Financial Architecture" src="https://github.com/user-attachments/assets/29694688-f9b9-405d-8fe1-c41ba1a78cbd" />
+ <img width="750" alt="VaultCore Financial Architecture" src="https://github.com/user-attachments/assets/29694688-f9b9-405d-8fe1-c41ba1a78cbd" />
 </p>
 
 ---
