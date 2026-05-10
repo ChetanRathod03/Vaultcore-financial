@@ -139,7 +139,7 @@ Business Services
 PostgreSQL Database
         ↓
 External APIs (Crypto Market + Gemini AI)
-```bash
+```
 
 📂 Folder Structure
 vaultcore-financial/
