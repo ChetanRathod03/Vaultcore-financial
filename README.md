@@ -139,7 +139,7 @@ Business Services
 PostgreSQL Database
         ↓
 External APIs (Crypto Market + Gemini AI)
-```
+
 
 📂 Folder Structure
 vaultcore-financial/
@@ -167,7 +167,7 @@ vaultcore-financial/
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
