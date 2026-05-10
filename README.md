@@ -267,7 +267,7 @@ Contributions are welcome.
 Chetan Rathod
 
 - GitHub: https://github.com/ChetanRathod03
-- LinkedIn: Add Your LinkedIn URL
+- LinkedIn: www.linkedin.com/in/chetan-rathod-ab800a311
 
 ---
 
