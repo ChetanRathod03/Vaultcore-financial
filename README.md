@@ -1,4 +1,4 @@
-🏦 VaultCore Financial
+<img width="1024" height="1536" alt="ChatGPT Image May 10, 2026, 01_55_18 PM" src="https://github.com/user-attachments/assets/29694688-f9b9-405d-8fe1-c41ba1a78cbd" />🏦 VaultCore Financial
 🚀 Enterprise-Grade FinTech Banking & Crypto Trading Platform | React.js + Spring Boot + PostgreSQL + Keycloak + Gemini AI
 VaultCore Financial is a secure, scalable, and AI-powered fintech platform that combines digital banking, crypto trading, portfolio management, fraud monitoring, and AI financial assistance into a single enterprise-level ecosystem.
 ⚡ Built with microservice-inspired architecture, JWT/OAuth2 security, Keycloak authentication, real-time crypto market integration, and AI-powered financial assistance.
@@ -169,44 +169,44 @@ vaultcore-financial/
 └── .gitignore
 ```
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+#⚙️ Installation & Setup
+#1️⃣ Clone Repository
 ```
 git clone https://github.com/YOUR_USERNAME/vaultcore-financial.git
 cd vaultcore-financial
 ```
 
-2️⃣ Backend Setup (Spring Boot)
+#2️⃣ Backend Setup (Spring Boot)
 ```
 cd backend
 mvn clean install
 mvn spring-boot:run
 ```
 
-Backend runs on:
+#Backend runs on:
 ```
 http://localhost:8080
 ```
 
-3️⃣ Frontend Setup (React)
+#3️⃣ Frontend Setup (React)
 ```
 cd frontend
 npm install
 npm run dev
 ```
 
-📌 Frontend runs on:
+#📌 Frontend runs on:
 http://localhost:5173
 
-4️⃣ Keycloak Setup
+#4️⃣ Keycloak Setup
 Run Keycloak server on:
 http://localhost:8081
 
-Create:
+#Create:
 Realm: vaultcore
 Client ID: vaultcore-frontend
 
-🔑 Environment Variables
+#🔑 Environment Variables
 Backend (application.yml)
 ```
 spring:
@@ -222,7 +222,11 @@ VITE_API_URL=http://localhost:8080
 VITE_KEYCLOAK_URL=http://localhost:8081
 ```
 
-🔐 Security Highlights
+#🏗️ Architecture Overview
+
+
+
+#🔐 Security Highlights
 OAuth2 Resource Server
 Keycloak Authentication
 JWT Token Validation
@@ -233,7 +237,7 @@ Token Expiry Handling
 Secure API Communication
 Environment Variable Protection
 
-🤖 AI Integration
+#🤖 AI Integration
 Gemini AI Features
 AI-powered finance chatbot
 Intelligent query responses
@@ -250,14 +254,16 @@ Buy & Sell crypto assets
 Trading history
 Market statistics
 Top gainers & losers
-🛡️ Fraud Detection & Admin Features
+
+
+#🛡️ Fraud Detection & Admin Features
 Suspicious transaction flagging
 Admin analytics dashboard
 User monitoring
 Audit report generation
 CSV/PDF downloadable reports
 
-📈 Future Enhancements
+#📈 Future Enhancements
 Real-time WebSocket trading
 AI-based fraud detection
 Multi-bank integration
@@ -268,20 +274,20 @@ Advanced analytics dashboard
 Mobile application
 🙌 Contributing
 
-Contributions are welcome.
+#Contributions are welcome.
 Fork the repository
 Create a feature branch
 Commit your changes
 Push your branch
 Open a Pull Request
 
-📞 Contact
-👨‍💻 Developer
+#📞 Contact
+#👨‍💻 Developer
 Chetan Rathod
 GitHub: https://github.com/ChetanRathod03
 LinkedIn: Add Your LinkedIn URL
 
-⭐ Support
+#⭐ Support
 If you found this project helpful, give it a ⭐ on GitHub.
 After replacing the README, run:
 ```bash
