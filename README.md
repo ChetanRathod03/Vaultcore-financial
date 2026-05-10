@@ -171,27 +171,34 @@ vaultcore-financial/
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
+```
 git clone https://github.com/YOUR_USERNAME/vaultcore-financial.git
 cd vaultcore-financial
+```
 
 2️⃣ Backend Setup (Spring Boot)
+```
 cd backend
 mvn clean install
 mvn spring-boot:run
+```
 
 Backend runs on:
+```
 http://localhost:8080
+```
 
 3️⃣ Frontend Setup (React)
+```
 cd frontend
 npm install
 npm run dev
+```
 
 📌 Frontend runs on:
-
 http://localhost:5173
-4️⃣ Keycloak Setup
 
+4️⃣ Keycloak Setup
 Run Keycloak server on:
 http://localhost:8081
 
@@ -201,6 +208,7 @@ Client ID: vaultcore-frontend
 
 🔑 Environment Variables
 Backend (application.yml)
+```
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/vaultcore_db
@@ -212,6 +220,7 @@ gemini:
 Frontend (.env)
 VITE_API_URL=http://localhost:8080
 VITE_KEYCLOAK_URL=http://localhost:8081
+```
 
 🔐 Security Highlights
 OAuth2 Resource Server
