@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="ChatGPT Image May 10, 2026, 01_55_18 PM" src="https://github.com/user-attachments/assets/29694688-f9b9-405d-8fe1-c41ba1a78cbd" />🏦 VaultCore Financial
+🏦 VaultCore Financial
 🚀 Enterprise-Grade FinTech Banking & Crypto Trading Platform | React.js + Spring Boot + PostgreSQL + Keycloak + Gemini AI
 VaultCore Financial is a secure, scalable, and AI-powered fintech platform that combines digital banking, crypto trading, portfolio management, fraud monitoring, and AI financial assistance into a single enterprise-level ecosystem.
 ⚡ Built with microservice-inspired architecture, JWT/OAuth2 security, Keycloak authentication, real-time crypto market integration, and AI-powered financial assistance.
@@ -169,127 +169,108 @@ vaultcore-financial/
 └── .gitignore
 ```
 
-#⚙️ Installation & Setup
-#1️⃣ Clone Repository
-```
-git clone https://github.com/YOUR_USERNAME/vaultcore-financial.git
-cd vaultcore-financial
-```
+## 🏗️ Architecture Overview
 
-#2️⃣ Backend Setup (Spring Boot)
-```
-cd backend
-mvn clean install
-mvn spring-boot:run
-```
+<p align="center">
+ <img width="850" alt="VaultCore Financial Architecture" src="https://github.com/user-attachments/assets/29694688-f9b9-405d-8fe1-c41ba1a78cbd" />
+</p>
 
-#Backend runs on:
-```
-http://localhost:8080
-```
+---
 
-#3️⃣ Frontend Setup (React)
-```
-cd frontend
-npm install
-npm run dev
-```
+## 🔐 Security Highlights
 
-#📌 Frontend runs on:
-http://localhost:5173
+- OAuth2 Resource Server
+- Keycloak Authentication
+- JWT Token Validation
+- Refresh Token Mechanism
+- Secure Route Protection
+- Role-Based Authorization
+- Token Expiry Handling
+- Secure API Communication
+- Environment Variable Protection
 
-#4️⃣ Keycloak Setup
-Run Keycloak server on:
-http://localhost:8081
+---
 
-#Create:
-Realm: vaultcore
-Client ID: vaultcore-frontend
+## 🤖 AI Integration
 
-#🔑 Environment Variables
-Backend (application.yml)
-```
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/vaultcore_db
-    username: postgres
-    password: YOUR_PASSWORD
+### Gemini AI Features
 
-gemini:
-  api-key: YOUR_GEMINI_API_KEY
-Frontend (.env)
-VITE_API_URL=http://localhost:8080
-VITE_KEYCLOAK_URL=http://localhost:8081
-```
+- AI-powered finance chatbot
+- Intelligent query responses
+- Personalized financial assistance
+- Real-time conversational support
 
-#🏗️ Architecture Overview
+---
 
+## 📈 Trading & Portfolio Features
 
+### 📊 Portfolio System
 
-#🔐 Security Highlights
-OAuth2 Resource Server
-Keycloak Authentication
-JWT Token Validation
-Refresh Token Mechanism
-Secure Route Protection
-Role-Based Authorization
-Token Expiry Handling
-Secure API Communication
-Environment Variable Protection
+- Total investment tracking
+- Profit/Loss calculations
+- Current market valuation
+- Portfolio analytics
 
-#🤖 AI Integration
-Gemini AI Features
-AI-powered finance chatbot
-Intelligent query responses
-Personalized financial assistance
-Real-time conversational support
-📈 Trading & Portfolio Features
-📊 Portfolio System
-Total investment tracking
-Profit/Loss calculations
-Current market valuation
-Portfolio analytics
-📈 Trading Engine
-Buy & Sell crypto assets
-Trading history
-Market statistics
-Top gainers & losers
+### 📈 Trading Engine
 
+- Buy & Sell crypto assets
+- Trading history
+- Market statistics
+- Top gainers & losers
 
-#🛡️ Fraud Detection & Admin Features
-Suspicious transaction flagging
-Admin analytics dashboard
-User monitoring
-Audit report generation
-CSV/PDF downloadable reports
+---
 
-#📈 Future Enhancements
-Real-time WebSocket trading
-AI-based fraud detection
-Multi-bank integration
-UPI payment support
-Docker & Kubernetes deployment
-CI/CD pipeline integration
-Advanced analytics dashboard
-Mobile application
-🙌 Contributing
+## 🛡️ Fraud Detection & Admin Features
 
-#Contributions are welcome.
-Fork the repository
-Create a feature branch
-Commit your changes
-Push your branch
-Open a Pull Request
+- Suspicious transaction flagging
+- Admin analytics dashboard
+- User monitoring
+- Audit report generation
+- CSV/PDF downloadable reports
 
-#📞 Contact
-#👨‍💻 Developer
+---
+
+## 📈 Future Enhancements
+
+- Real-time WebSocket trading
+- AI-based fraud detection
+- Multi-bank integration
+- UPI payment support
+- Docker & Kubernetes deployment
+- CI/CD pipeline integration
+- Advanced analytics dashboard
+- Mobile application
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
+
+---
+
+## 📞 Contact
+
+### 👨‍💻 Developer
+
 Chetan Rathod
-GitHub: https://github.com/ChetanRathod03
-LinkedIn: Add Your LinkedIn URL
 
-#⭐ Support
+- GitHub: https://github.com/ChetanRathod03
+- LinkedIn: Add Your LinkedIn URL
+
+---
+
+## ⭐ Support
+
 If you found this project helpful, give it a ⭐ on GitHub.
 After replacing the README, run:
+
 ```bash
 git add README.md
 git commit -m "Updated professional README"
